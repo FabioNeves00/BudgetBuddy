@@ -4,6 +4,12 @@
     "strict": true,
     "baseUrl": ".",
     "paths": {
-      "@/*": ["
-      }
+      "@/*": ["./src/*"],
+      "@screens": ["./src/screens"],
+      "@firebase": ["./src/firebase"],
+      "@components/*": ["./src/components/*"],
+      "@navigation": ["./src/navigation"],
+      "@context": ["./src/context"]
     }
+  }
+}
